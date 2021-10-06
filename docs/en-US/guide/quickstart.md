@@ -87,6 +87,10 @@ module.exports = {
 }
 ```
 
+:::tip
+unplugin-vue-component do not auto register directives. You will need to register it yourself.
+:::
+
 For more bundlers ([Rollup](https://rollupjs.org/), [Vue CLI](https://cli.vuejs.org/)) and configs please reference [unplugin-vue-components](https://github.com/antfu/unplugin-vue-components#readme).
 
 #### Manually import
